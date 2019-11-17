@@ -2,15 +2,18 @@
 
 int main(void)
 {
+	printf( "recomment\n" );
 	int i = 0;
-	int j = 0;
-	for ( i = 2; i <i= 9; i++ )
+	while ( i <= 9 )
 	{
-		for ( j = 1; j <= 9; j++ )
+		int j = 1;
+		while ( j <= 9 )
 		{
 			printf( "%d x %d = %d\n", i, j, i*j );
+			j++;		
 		}
 		printf( "===============================\n" );
+		i++;	
 	}
 	return 1;
 }
