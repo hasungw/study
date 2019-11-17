@@ -2,8 +2,8 @@
 
 int main(void)
 {
-	int i = 1;
-	for ( i = 1 ; i < 10; i++ )
+	int i = 2;
+	for ( i = 2 ; i < 10; i++ )
 	{
 		printf( "i = %d\n", i );
 	}
